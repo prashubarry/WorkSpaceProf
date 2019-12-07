@@ -9,6 +9,7 @@ def longest_common_prefix(string):
                 return ""
     return prefix
 
+
 if __name__ == '__main__':
     n = int(input())
     input_string = list(input().rstrip().split())[:n]
